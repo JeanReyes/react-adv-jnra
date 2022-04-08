@@ -1,10 +1,10 @@
-import React from 'react';
-import { ErrorMessage, Field, useField } from 'formik';
+import { useField } from 'formik';
 
 export interface FormikProps {
     htmlFor?: string;
     label: string;
     name: string;
+    placeholder?: string;
     type?: string;
     [ x: string ]: any;
 }

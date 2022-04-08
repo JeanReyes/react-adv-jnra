@@ -1,0 +1,57 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Jean",
+        "label": "Nombre",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Reyes",
+        "label": "LastName",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "ejemplo@ejm.cl",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": ["Good of War", "FIFA", "League of Legends"],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
